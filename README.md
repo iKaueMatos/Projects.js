@@ -1,8 +1,7 @@
  Projects em Javascript
 
 
-<img src="![image](https://user-images.githubusercontent.com/98132837/211218803-8d4655c5-c71d-47ab-9b1e-b139a1d011cc.png)
-" alt="Javascript">
+<img src="https://cdn.hackr.io/uploads/posts/large/1610440688CsnTItSOqE.png" alt="Javascript">
 
 > Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
 
