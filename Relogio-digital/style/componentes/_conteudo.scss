@@ -1,0 +1,29 @@
+@import '../abstract/variaveis';
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}.relogio{
+    background:$backgroundrelogio;
+    padding: 10em;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.display{
+    font-size: 100px;
+    font-weight: bold;
+    font-family: $font-google;
+    color: $font-color;
+}.data-rodape{   
+    font-family: $font-google;
+    font-size: 25px;
+    font-weight: bold;
+    color:$data-color;
+    
+}

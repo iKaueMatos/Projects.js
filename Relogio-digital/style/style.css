@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.relogio {
+  background: rgb(110, 173, 170);
+  padding: 10em;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.display {
+  font-size: 100px;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+}
+
+.data_rodape {
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+body {
+  background: #fe8;
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=style.css.map */
