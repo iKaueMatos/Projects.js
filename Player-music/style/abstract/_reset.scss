@@ -1,0 +1,12 @@
+@import './variaveis';
+
+body{
+    margin: 0;
+    padding: 0;
+    background:$background;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    
+}

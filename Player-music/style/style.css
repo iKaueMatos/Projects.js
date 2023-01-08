@@ -1,0 +1,90 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(59, 56, 56);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.barra {
+  width: 300px;
+  height: 6px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+progress {
+  height: 6px;
+  width: 0%;
+  background-color: #333;
+}
+
+.ponto {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-left: -2px;
+}
+
+.tempo {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.imagem-music {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.descrição {
+  width: 300px;
+  color: #fff;
+  margin: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+
+i, p {
+  color: rgb(202, 199, 199);
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "Open Sans", sans-serif;
+}
+
+.player {
+  display: flex;
+  line-height: 10px;
+}
+
+button {
+  color: #000;
+  margin: 15px;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+button :hover {
+  background: rgb(183, 255, 245);
+}
+
+.pausar {
+  display: none;
+}/*# sourceMappingURL=style.css.map */

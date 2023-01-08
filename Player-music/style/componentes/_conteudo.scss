@@ -1,0 +1,43 @@
+
+@import './barra';
+@import '../abstract/variaveis';
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}.imagem-music{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.descrição{
+    width: 300px;
+    color: $font-white;
+    margin: 15px;
+    font-family: $font-google;
+    
+}i,p{
+    color: rgb(202, 199, 199);
+    font-size: 15px;
+    font-weight: 300;
+    font-family: $font-google;
+}.player{
+    display: flex;
+    line-height: 10px;
+
+    
+}button{
+    color: $font-black;
+    margin: 15px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    & :hover{
+    background:rgb(183, 255, 245) ;
+    }
+}.pausar{
+    display: none;
+}

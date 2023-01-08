@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Player music Spotify</title>
+</head>
+<body>
+    <div class="container">
+    <img class='imagem-music' src="./assets/piano.jpg" alt="Musica piano tocando">
+    <div class ='descrição'>
+        <h2 class="nome-music">Nome da musica</h2>
+        <i class="nome-autor">Kauê de matos oliveira</i>
+    </div>
+    <div class= 'duração'>
+        <div class="barra">
+            <progress value="0.9" max="100"></progress>
+            <div class="ponto"></div>
+        </div>
+        <div class="tempo">
+            <p class="inicio">0:00</p>
+            <p class="fim">3:40</p>
+        </div>
+    </div>
+    
+    <div class="player">
+        <button  class="anterior">Voltar</button>
+        <button class="botao-play">Play</button>
+        <button class="botao-pause">Pausar</button>
+        <button class="botao-proxima">Proximo</button>
+    </div>
+        <audio src="music/A Brand New Start - TrackTribe (1).mp3"></audio>
+    </div>
+
+    <script src="./src/main.js"></script>
+</body>
+</html>
